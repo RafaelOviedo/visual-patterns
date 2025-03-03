@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/index.52562a30.css">
+  <title>Observer test</title>
+</head>
+<body>
+  <main class="main-app">
+    <div id="publisher-box">
+      <div id="publisher-card">
+        Publisher Card
+
+        <div class="phones-container">
+          <div class="iphone-state-container">
+            <label class="input-container">
+              Type new Iphone state
+              <input id="iphone-input" style="width: 100%; height: 40%; margin-top: 10px" type="text">
+            </label>
+            <span id="iphone-state">Nothing new here...</span>
+            <button id="iphone-publish-button">Publish Iphone state change</button>
+          </div>
+
+          <div class="samsung-state-container">
+            <label class="input-container">
+              Type new Samsung state
+              <input id="samsung-input" style="width: 100%; height: 40%; margin-top: 10px" type="text">
+            </label>
+            <span id="samsung-state">Nothing new here...</span>
+            <button id="samsung-publish-button">Publish Samsung state change</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="observers-box">
+      <div id="iphone-users-box">
+        <div id="iphone-user-1">
+          <p>Iphone user 1</p>
+          <span id="iphone-user-1-state">0</span>
+          <button id="subscribe-to-iphone-user-1">Subscribe</button>
+          <button id="unsubscribe-to-iphone-user-1">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+
+        <div id="iphone-user-2">
+          <p>Iphone user 2</p>
+          <span id="iphone-user-2-state">0</span>
+          <button id="subscribe-to-iphone-user-2">Subscribe</button>
+          <button id="unsubscribe-to-iphone-user-2">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+
+        <div id="iphone-user-3">
+          <p>Iphone user 3</p>
+          <span id="iphone-user-3-state">0</span>
+          <button id="subscribe-to-iphone-user-3">Subscribe</button>
+          <button id="unsubscribe-to-iphone-user-3">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+
+        <div id="iphone-user-4">
+          <p>Iphone user 4</p>
+          <span id="iphoneruser-4-state">0</span>
+          <button id="subscribe-to-iphone-user-4">Subscribe</button>
+          <button id="unsubscribe-to-iphone-user-4">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+      </div>
+ 
+      <div id="samsung-users-box">
+        <div id="samsung-user-1"> 
+          <p>Samsung user 1</p>
+          <span id="samsung-user-1-state">0</span>
+          <button id="subscribe-to-samsung-user-1">Subscribe</button>
+          <button id="unsubscribe-to-samsung-user-1">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+
+        <div id="samsung-user-2">
+          <p>Samsung user 2</p>
+          <span id="samsung-user-2-state">0</span>
+          <button id="subscribe-to-samsung-user-2">Subscribe</button>
+          <button id="unsubscribe-to-samsung-user-2">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+
+        <div id="samsung-user-3">
+          <p>Samsung user 3</p>
+          <span id="samsung-user-3-state">0</span>
+          <button id="subscribe-to-samsung-user-3">Subscribe</button>
+          <button id="unsubscribe-to-samsung-user-3">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+
+        <div id="samsung-user-4"> 
+          <p>Samsung user 4</p>
+          <span id="samsung-user-4-state">0</span>
+          <button id="subscribe-to-samsung-user-4">Subscribe</button>
+          <button id="unsubscribe-to-samsung-user-4">Unsubscribe</button>
+          <span class="subscribed-state"></span>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+</body>
+
+<script src="/index.9f1d2d2b.js" defer=""></script>
+</html>

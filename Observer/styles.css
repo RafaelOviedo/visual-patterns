@@ -1,0 +1,215 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#publisher-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 35%;
+  border-radius: 10px;
+}
+
+#publisher-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 55%;
+  height: 85%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.phones-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+}
+
+.iphone-state-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.input-container {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.samsung-state-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+#iphone-publish-button {
+  width: 80%;
+  height: 20%;
+  border: 1px solid black;
+  border-radius: 7px;
+  background: lightseagreen;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#iphone-publish-button:active {
+  background: lightblue;
+}
+
+#samsung-publish-button {
+  width: 80%;
+  height: 20%;
+  border: 1px solid black;
+  border-radius: 7px;
+  background: lightseagreen;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#samsung-publish-button:active {
+  background: lightblue;
+}
+
+#observers-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+
+#iphone-users-box, #samsung-users-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 45%;
+  height: 95%;
+  border-radius: 10px;
+}
+
+#iphone-user-1,
+#iphone-user-2,
+#iphone-user-3,
+#iphone-user-4,
+#samsung-user-1,
+#samsung-user-2,
+#samsung-user-3,
+#samsung-user-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35%;
+  height: 40%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#iphone-user-1-state, #iphone-user-2-state, #iphone-user-3-state, #iphone-user-4-state {
+  text-align: center;
+}
+
+.highlight {
+  border: 3px solid lightseagreen !important;
+}
+
+#subscribe-to-iphone-user-1,
+#unsubscribe-to-iphone-user-1,
+#subscribe-to-iphone-user-2,
+#unsubscribe-to-iphone-user-2,
+#subscribe-to-iphone-user-3,
+#unsubscribe-to-iphone-user-3,
+#subscribe-to-iphone-user-4,
+#unsubscribe-to-iphone-user-4 {
+  width: 70%;
+  height: 15%;
+  border: 1px solid black;
+  border-radius: 7px;
+  background: lightseagreen;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#subscribe-to-iphone-user-1:active,
+#unsubscribe-to-iphone-user-1:active,
+#subscribe-to-iphone-user-2:active,
+#unsubscribe-to-iphone-user-2:active,
+#subscribe-to-iphone-user-3:active,
+#unsubscribe-to-iphone-user-3:active,
+#subscribe-to-iphone-user-4:active,
+#unsubscribe-to-iphone-user-4:active {
+  background: lightblue;
+}
+
+
+#subscribe-to-samsung-user-1,
+#unsubscribe-to-samsung-user-1,
+#subscribe-to-samsung-user-2,
+#unsubscribe-to-samsung-user-2,
+#subscribe-to-samsung-user-3,
+#unsubscribe-to-samsung-user-3,
+#subscribe-to-samsung-user-4,
+#unsubscribe-to-samsung-user-4 {
+  width: 70%;
+  height: 15%;
+  border: 1px solid black;
+  border-radius: 7px;
+  background: lightseagreen;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#subscribe-to-samsung-user-1:active,
+#unsubscribe-to-samsung-user-1:active,
+#subscribe-to-samsung-user-2:active,
+#unsubscribe-to-samsung-user-2:active,
+#subscribe-to-samsung-user-3:active,
+#unsubscribe-to-samsung-user-3:active,
+#subscribe-to-samsung-user-4:active,
+#unsubscribe-to-samsung-user-4:active {
+  background: lightblue;
+}
+
+.subscribed-state {
+  color: #40d855;
+}
+.unsubscribed-state {
+  color: red;
+}
