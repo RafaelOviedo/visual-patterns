@@ -1,5 +1,5 @@
 import { ConcreteObserverB } from "./observer";
-import { publisherCard } from ".";
+import { publisherCard } from "./main";
 
 export function runSamsungUsersLogic() {
 

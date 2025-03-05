@@ -1,5 +1,5 @@
 import { ConcreteObserverA } from "./observer";
-import { publisherCard } from ".";
+import { publisherCard } from "./main";
 
 export function runIphoneUsersLogic() {
 
